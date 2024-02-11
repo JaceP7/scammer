@@ -1,0 +1,48 @@
+*{
+	padding: 0;
+	margin: 0;
+	outline:0;
+    font-family: century gothic;
+    font-size: 2rem;
+}
+.container{
+	height: 100vh;
+	width: 100vw;
+	text-align:center;
+	color:#333;
+	background: pink;
+
+}
+.love,.yes,.no{padding-top: 15%;
+		
+		}
+.love span{color:red;}
+h2{font-size: 72px;margin-bottom: 20px;}
+a{font-size: 24px;text-decoration: none;padding: 5px 10px;
+	margin-top: 20px;border:3px solid #ddd; border-radius: 10px;}
+#no{color:red; background: #eee;margin-right: 50px;}
+#yes{color:green;background: #eee;}
+
+#no1{color:red; background: #eee;margin-right: 50px;font-size: 20px;}
+#yes1{color:green;background: #eee;font-size: 36px;}
+
+#no2{color:red; background: #eee;margin-right: 0px;font-size: 15px;}
+#yes2{color:green;background: #eee;font-size: 72px;}
+
+#no3{color:red; background: #eee;margin-right: 50px;font-size: 9px;}
+#yes3{color:green;background: #eee;font-size: 100px;}
+
+#no4{color:red; background: #eee;margin-right: 50px;font-size: 3px;}
+#yes4{color:green;background: #eee;font-size: 300px;}
+
+#no5{color:red; background: #eee;margin-right: 50px;font-size: 0px;}
+#yes5{color:green;background: #eee;font-size: 600px;}
+
+.yes img{
+	animation: image 4s linear infinite;
+}
+@keyframes image{
+	0%{transform: scale(.2);}
+	50%{transform: scale(.3);}
+	100%{transform: scale(.2);}
+}
